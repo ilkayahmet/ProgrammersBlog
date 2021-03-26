@@ -1,0 +1,19 @@
+****************************
+Powershell veya Terminal üzerinde:
+
+dotnet tool install --global dotnet-ef --version 5.0.0-preview.7.20365.15
+
+Yukarıdaki kurulum kodu, şuan ki son versiyon içindir.
+Eğer siz bu derslerimizi izlerken Dotnet 5 release oldu ise;
+
+“dotnet tool install --global dotnet-ef” komutu en güncel versiyonu yüklemek için yeterli olacaktır.
+****************************
+****************************
+Yeni bir Migration eklemek için:
+dotnet ef migrations add InitialCreate
+****************************
+****************************
+Tüm konfigürasyon ve ayarlar ile veritabanımızı oluşturmak için:
+dotnet ef database update
+****************************
+dotnet ef migrations remove
